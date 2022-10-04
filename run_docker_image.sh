@@ -1,0 +1,1 @@
+sudo docker run -it --rm --gpus all --network host   --privileged   --shm-size=48g --ulimit memlock=-1 --ulimit stack=67108864 80c3ddc8360e bash
