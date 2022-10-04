@@ -1,5 +1,6 @@
+experiment=my-experiment
 python -m torch.distributed.launch \
-  --nproc_per_node=8 main_dino.py \
+  --nproc_per_node=8 dino/main_dino.py \
   --arch vit_small \
   --num_workers 50 \
   --data_path data/mini_imagenet/train/ \

@@ -1,5 +1,5 @@
 # Clone the dino repo in current workspace.
-git clone https://github.com/facebookresearch/dino.git .
+git clone https://github.com/facebookresearch/dino.git
 
 # Install GCSFuse
 export GCSFUSE_REPO=gcsfuse-focal
