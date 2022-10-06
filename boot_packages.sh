@@ -10,3 +10,6 @@ apt-get install gcsfuse
 
 # Create data directory to mount different data source.
 mkdir data
+
+# Install pytorch dependency modules.
+pip3 install timm
